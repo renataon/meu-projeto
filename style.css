@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #35424a, #526d7a);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+/* Navegação */
+nav {
+    background-color: #ffffff;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Conteúdo principal */
+.conteudo {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 28px;
+    color: #35424a;
+}
+
+.conteudo p {
+    font-size: 17px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
